@@ -14,7 +14,7 @@ class Client extends Networker {
     private $totalTimeToTask;
 
     private $apiEndpoint = "https://api.capmonster.cloud/";
-    private $userAgent = "Zennolab.CapMonsterCloud.Client.PHP/1.2";
+    private $userAgent = "Zennolab.CapMonsterCloud.Client.PHP/1.3";
 
     private function startTask() : void {
         $this->startTime = date_create()->format('Uv');
